@@ -128,7 +128,7 @@ do{
             if ($objPasajeroPorModificar instanceof Pasajero&&!($objPasajeroPorModificar instanceof PasajeroNE) OR
             !($objPasajeroPorModificar instanceof PasajeroVIP)) {
                 if ($viaje->modificarPasajero($dniModif, $nombreM, $apellidoM, $telefonoM)) {
-                    echo "El pasajero se ha modificado correctamente. \n HOLAAAAAAAAAAAAAAAAA";
+                    echo "El pasajero se ha modificado correctamente. \n ";
                 } else {
                     echo "El pasajero no se encontro en el viaje. \n";
                 }
